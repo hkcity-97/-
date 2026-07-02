@@ -1,0 +1,192 @@
+# -<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>香港市政廳 | Hong Kong City Hall（概念設計）</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+
+body{
+    background:#f4f6f8;
+}
+
+header{
+    background:#b30000;
+    color:white;
+    padding:18px 60px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:28px;
+}
+
+.hero{
+    background:linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+    url("https://images.unsplash.com/photo-1505765050516-f72dcac9c60f?auto=format&fit=crop&w=1800&q=80");
+    background-size:cover;
+    background-position:center;
+    color:white;
+    height:420px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:52px;
+}
+
+.hero p{
+    margin-top:15px;
+    font-size:20px;
+}
+
+.container{
+    width:1200px;
+    max-width:92%;
+    margin:50px auto;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    border-radius:12px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card h2{
+    color:#b30000;
+    margin-bottom:15px;
+}
+
+.news{
+    margin-top:60px;
+}
+
+.news-item{
+    background:white;
+    padding:25px;
+    margin-top:20px;
+    border-left:6px solid #b30000;
+}
+
+footer{
+    margin-top:60px;
+    background:#222;
+    color:#ddd;
+    text-align:center;
+    padding:25px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+香港市政廳
+</div>
+
+<nav>
+<a href="#">首頁</a>
+<a href="#">公共服務</a>
+<a href="#">最新消息</a>
+<a href="#">活動</a>
+<a href="#">聯絡我們</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div>
+
+<h1>服務市民 共建香港</h1>
+
+<p>提供公共文化、社區活動及市民服務資訊</p>
+
+</div>
+
+</section>
+
+<div class="container">
+
+<div class="cards">
+
+<div class="card">
+<h2>🏛 市民服務</h2>
+<p>查閱公共設施、場地預約及社區服務資訊。</p>
+</div>
+
+<div class="card">
+<h2>📅 活動資訊</h2>
+<p>音樂會、展覽、文化活動及社區節目。</p>
+</div>
+
+<div class="card">
+<h2>📢 最新公告</h2>
+<p>瀏覽市政相關公告及公共通知。</p>
+</div>
+
+<div class="card">
+<h2>💬 意見反映</h2>
+<p>提交建議、查詢及聯絡相關部門。</p>
+</div>
+
+</div>
+
+<div class="news">
+
+<h2>最新消息</h2>
+
+<div class="news-item">
+<h3>網站示範公告</h3>
+</div>
+
+<div class="news-item">
+<h3>文化活動專區</h3>
+<p>展示文化及社區活動版面範例。</p>
+</div>
+
+</div>
+
+</div>
+
+<footer>
+
+© Concept Design — Hong Kong City Hall Interface Demo
+
+</footer>
+
+</body>
+</html>
